@@ -11,6 +11,9 @@ Ok, let me make it easy !!!
 
 A container is a bundle of Application, Application libraries required to run your application and the minimum system dependencies.
 
+<img width="1662" height="718" alt="image" src="https://github.com/user-attachments/assets/a2a575a9-a5d8-4a20-8669-c33e8e4039fb" />
+
+
 Screenshot 2023-02-07 at 7 18 10 PM
 
 ## Containers vs Virtual Machine
