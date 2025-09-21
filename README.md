@@ -14,7 +14,6 @@ A container is a bundle of Application, Application libraries required to run yo
 <img width="1662" height="718" alt="image" src="https://github.com/user-attachments/assets/a2a575a9-a5d8-4a20-8669-c33e8e4039fb" />
 
 
-Screenshot 2023-02-07 at 7 18 10 PM
 
 ## Containers vs Virtual Machine
 Containers and virtual machines are both technologies used to isolate applications and their dependencies, but they have some key differences:
@@ -37,6 +36,9 @@ Below is the screenshot of official ubuntu base image which you can use for your
 Screenshot 2023-02-08 at 3 12 38 PM
 
 To provide a better picture of files and folders that containers base images have and files and folders that containers use from host operating system (not 100 percent accurate -> varies from base image to base image). Refer below.
+
+<img width="1673" height="747" alt="image" src="https://github.com/user-attachments/assets/6acce049-8d02-4141-88ef-b01f5fe4d532" />
+
 
 ## Files and Folders in containers base images
     /bin: contains binary executable files, such as the ls, cp, and ps commands.
@@ -81,7 +83,8 @@ In simple words, you can understand as containerization is a concept or technolo
 
 ## Docker Architecture ?
 
-image
+<img width="1009" height="527" alt="image" src="https://github.com/user-attachments/assets/6ac4fe5c-1f1c-4bfa-9f0e-0db5e95081ab" />
+
 
 The above picture, clearly indicates that Docker Deamon is brain of Docker. If Docker Deamon is killed, stops working for some reasons, Docker is brain dead :p (sarcasm intended).
 
@@ -93,7 +96,9 @@ There are three important things,
 docker build -> builds docker images from Dockerfile
 docker run -> runs container from docker images
 docker push -> push the container image to public/private regestries to share the docker images.
-Screenshot 2023-02-08 at 4 32 13 PM
+
+<img width="1402" height="372" alt="image" src="https://github.com/user-attachments/assets/6fe68d72-8896-498e-a535-a2967ca202c6" />
+
 
 ## Understanding the terminology (Inspired from Docker Docs)
 
